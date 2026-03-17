@@ -1,8 +1,10 @@
 # APBD Tutorial 1 - Git
 
-## Task 4 vs Task 5
-1. Fast-forward happens when target branch (main) has no new commits since branch creation. Merge commit created when branches diverged (Task 5 README update).
+1. Fast-forward vs merge commit
+Fast-forward (Task 4): main unchanged. Merge commit (Task 5): main had new commits.
 
-2. Rebase replays commits linearly on top of main (Task 6 clean line). Merge preserves branch history visually (Task 5 diamond).
+2. Merge vs rebase
+Merge: shows branch history (diamond). Rebase: linear history (Task 6 straight line).
 
-3. Task 7 conflict in Program.cs: kept English error message from main as it's consistent with app language.
+3. Conflict resolution
+Program.cs error message: kept English from main for consistency.
