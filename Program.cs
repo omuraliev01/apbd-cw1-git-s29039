@@ -3,10 +3,8 @@ string input = Console.ReadLine();
 
 if (string.IsNullOrEmpty(input))
 {
-<<<<<<< HEAD
     Console.WriteLine("ERROR: No numbers provided!");
-=======
+
     Console.WriteLine("Please enter numbers (empty input not allowed)");
->>>>>>> feature-conflict
     return
 }

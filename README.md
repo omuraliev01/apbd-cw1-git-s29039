@@ -1,10 +1,8 @@
- Changes on main
-- Added input validation
-HEAD
-apbd-cw1-git-s29039
+# APBD Tutorial 1 - Git
 
-"apbd-cw1-git-s29039" 
+## Task 4 vs Task 5
+1. Fast-forward happens when target branch (main) has no new commits since branch creation. Merge commit created when branches diverged (Task 5 README update).
 
-363b867 (Added empty Statistical class)
+2. Rebase replays commits linearly on top of main (Task 6 clean line). Merge preserves branch history visually (Task 5 diamond).
 
-- Minor input validation
+3. Task 7 conflict in Program.cs: kept English error message from main as it's consistent with app language.
