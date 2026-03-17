@@ -16,8 +16,8 @@ namespace apbd-cw1-git-s29039
         }
         public static int CalculateMin(int[] values)
         {
-            // TODO
-            return 0;
+            if (values == null || values.Length == 0) return 0;
+            return values.Min();
         }
 
     }
